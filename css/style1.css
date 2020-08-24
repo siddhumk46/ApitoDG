@@ -1,8 +1,8 @@
-
 nav a{
     color: white !important;
     font-size: 1.2em !important;
 }
+
 .headerDiv{
     min-height: 100px;
     text-align: center;
@@ -16,6 +16,9 @@ nav a{
     margin-top: 2%;
 }
 
+#other{
+    visibility: hidden;
+}
 .custLeftDivMD{
     min-height: 400px;
     text-align: left;
@@ -34,7 +37,7 @@ nav a{
 .custRightDivMD{
     min-height: 400px;
     text-align: left;
-    background-color:;
+    /* background-color:; */
     margin-top: 1ch;
 }
 
@@ -46,6 +49,7 @@ nav a{
 }
  p#innerPara{padding:20px ;}
  legend{width:200px;padding:10px 20px;}
+
 
 .footerDiv{
     min-height: 100px;
@@ -64,4 +68,3 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
