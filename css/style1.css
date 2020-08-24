@@ -50,8 +50,9 @@ nav a{
 .footerDiv{
     min-height: 100px;
     text-align: left;
-    background-color: rgb(139, 139, 145);
+    background-color: rgb(72, 72, 73);
     margin-top: 2%;
+    margin-top: 0ch;
 }
 
 input[type=number] {
