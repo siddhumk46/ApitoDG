@@ -1,512 +1,389 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!doctype html>
+    <html lang="en">
+      <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link  href="css/style1.css" rel="stylesheet">
+        <title>Register</title>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link  href="css/style1.css" rel="stylesheet">
 
-    <script>
-        $(function(){
+        <script src="validation.js">
+           
+          </script>
+    </head>
 
-            $('#changetabbutton1').click(function(e){
-                e.preventDefault();
-
-                $('#mytabs a[href="#academic"]').tab('show');
-            });
-
-            $('#changetabbutton2').click(function(e){
-                e.preventDefault();
-
-                $('#mytabs a[href="#professional"]').tab('show');
-            });
-
-            $('#changetabbutton3').click(function(e){
-                e.preventDefault();
-
-                $('#mytabs a[href="#upload"]').tab('show');
-            });
-
-            $('#changetabbutton4').click(function(e){
-                e.preventDefault();
-
-                $('#mytabs a[href="#declaration"]').tab('show');
-            });
-
-        });
-      </script>
-</head>
-
- <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 d-none d-sm-none d-md-block headerDiv"> <p style="font-size: 2cm; margin: 0%;"> Karnataka Government Project.</p>
-              <p style="font-size: medium; color: rgb(121, 171, 236);"> Diploma in co-operative management.</p>
-             </div>
-             <div class="col-sm-12 col-xs-12 d-block d-sm-block d-md-none headerDivSmall"> <p style="font-size: xx-large; margin: 0%;"> Karnataka Government Project.</p>
-                 <p style="font-size: small; color: rgb(121, 171, 236);"> Diploma in co-operative management.</p>
+     <body>
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-12 d-none d-sm-none d-md-block headerDiv">
+                 <img src="img/download.png">
+                 <p class="font-weight-normal" style="font-size:8ch"> Karnataka State co-operative Federation Ltd.,</p>
+                 <p style="font-size: medium; color: rgb(121, 171, 236);"> Diploma in Co-operative Management (Distance Education)</p>
                 </div>
-        </div>
+          </div>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNav">
-           <ul class="navbar-nav">
-             <li class="nav-item active">
-               <a class="nav-link" href="details.html">General Details <span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="form.html">Register</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#">Status</a>
-             </li>
-           </ul>
-         </div>
-       </nav>
+            <!--Nav bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-warning orange">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">General Details </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="form.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                </ul>
+                </div>
+            </nav>
 
-        <div class="row">
-         <div class="col-md-2 custLeftDivMD">Left</div>
 
-<!-- Start of center-->
-         <div class="col-md-8 custCentDivMD">
-            <div class="card text-center">
-                <div class="card-header">
-                    <ul id="mytabs" class="nav nav-tabs card-header-tabs pull-right"  id="myTab" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="personal-tab"  href="#personal">Personal Details</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link  " id="academic-tab"  href="#academic">Academic Qualification</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link " id="professional-tab"  href="#professional">Professional Details</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " id="upload-tab"  href="#upload">Upload Section</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link " id="declaration-tab"  href="#declaration">Declaration</a>
-                        </li>
-
+            <div class="row">
+                <div class="col-md-2 custLeftDivMD">
+                  <fieldset class="border" >
+                    <legend class ='text-left'>Downloads</legend>
+                    <ul>
+                      <li>Download NOC template</li>
+                      <li>Download Service Certificate template</li>
+                      <li>Download Application Form</li>
                     </ul>
-                </div>
+                  </fieldset>
+                  
+            </div>
 
-                <div class="card-body">
-                    <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
-                            <div id="personDetailId">
-                                <div class="form-group">
-                                    <label >Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</label>
-                                    <input type="number" id="mobile_number" name="mobile_number" class="form-control" required>
-                                    <small class="form-text text-muted">Register per mobile number</small>
-                                </div>
-            
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Preference of center</label>
-                                    <input class="form-control" type="text" name="poc" id="poc" required>
-                                </div>
-            
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Sponsoring Co-operative Society</label>
-                                    <input class="form-control" type="text" name="sponsor" id="sponsor" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು</label>
-                                    <input type="text" name="title" id="title" class="form-control" placeholder="Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು" required />
+    <!-- Start of center-->
+         
+             <div class="col-md-8 custCentDivMD  overflow-auto">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <ul id="mytabs" class="nav nav-tabs card-header-tabs pull-right"  id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="personal-tab"  href="#personal">Personal Details</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " id="academic-tab"  href="#academic">Academic Qualification</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " id="professional-tab"  href="#professional">Professional Details</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="upload-tab"  href="#upload">Upload Section</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " id="declaration-tab"  href="#declaration">Declaration</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                                <div id="personDetailId">
+                                    <div class="form-group">
+                                        <label >Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</label>
+                                        <input type="number" id="mobile_number" name="mobile_number" class="form-control" required>
+                                        <small class="form-text text-muted">Register per mobile number</small>
+                                        <span id="e_mobile"></span>
+                                    </div>
+                
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Preference of center</label>
+                                        <select class="custom-select" id="poc" name="poc" required="">
+                                            <option selected>Choose...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            </select>
+                                            <span id="e_poc"></span>
+                                    </div>
                                     
+                
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Sponsoring Co-operative Society</label>
+                                        <input class="form-control" type="text" name="sponsor" id="sponsor" required>
+                                        <span id="e_sponsor"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು</label>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು" required />
+                                        <span id="e_name"></span>                                 
+                                    </div>
+                                    <div class="form-group">
+                                        <label> Father's Name/ ತಂದೆಯ ಹೆಸರು</label>
+                                        <input type="text" name="father_name" id="father_name" class="form-control" placeholder="Father's Name/ತಂದೆಯ ಹೆಸರು" required />
+                                        <span id="e_father"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Mother's Name/ ತಾಯಿಯ ಹೆಸರು</label>
+                                        <input type="text" name="mother_name" id="mother_name" class="form-control" placeholder="Mother's Name/ತಾಯಿಯ ಹೆಸರು" required />
+                                        <span id="e_mother"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Sex</label>
+                                         <select name="sex" id="sex" required class="custom-select">
+                                            <option slected value="">sex</option>
+                                            <option value="M">Male</option>
+                                            <option value="F">Female</option>
+                                            <option value="T">Transgender</option>
+                                        </select>
+                                        <span id="e_sex"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>D.O.B/ಹುಟ್ತಿದ ದಿನ</label>
+                                        <input type="date" id="dob" name="dob" class="form-control" required>
+                                        <span id="e_dob"></span> 
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Age/ವಯಸ್ಸು</label>
+                                        <input type="number" id="age" name="age" class="form-control" placeholder="Age/ವಯಸ್" required>
+                                        <span id="e_age"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Religion/ಧರ್ಮ</label>
+                                        <input type="text" id="religion" name="religion" class="form-control" placeholder="Religion/ಧರ್ಮ" required>
+                                        <span id="e_religion"></span>
+                                     </div>
+                                    <div class="form-group">
+                                        <label>Caste/ಜಾತಿ</label>
+                                        <select name="caste" id="caste" class="form-control" required>
+                                            <option slected value="">Cast/ಜಾತಿ</option>
+                                            <option value="GM">GM</option>
+                                            <option value="SC">SC</option>
+                                            <option value="ST">ST</option>
+                                            <option value="O">Others</option>
+                                        </select>
+                                        <span id="e_caste"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Nationality/ರಾಷ್ಟ್ರೀಯತೆ</label>
+                                        <input type="text" id="nationality" name="nationality" class="form-control" placeholder="Nationality/ರಾಷ್ಟ್ರೀಯತೆ" required>
+                                        <span id="e_nationality"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Address/ವಿಳಾಸ</label>
+                                        <textarea id="address" name="address" rows="3" placeholder="address/ವಿಳಾಸ" class="form-control" required> </textarea>
+                                        <span id="e_address"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Pincode/ಅಂಚೆ</label>
+                                        <input type="number" id="pincode" name="pincode" class="form-control" placeholder="pincode/ಅಂಚೆ" required>
+                                        <span id="e_pincode"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>E-Mail Address/ಇಮೇಲ್ ವಿಳಾಸ</label>
+                                        <input type="email" id="email" name="email" class="form-control" placeholder="E-Mail/ಇಮೇಲ್ ವಿಳಾಸ" required>
+                                        <span id="e_email"></span>
+                                     </div>
+ 
+
+                                    <button type="button" id="changetabbutton1" class="btn btn-primary ">Continue</button>
+                
+                                 </div>
+                            </div>
+                            <div class="tab-pane fade " id="academic" role="tabpanel" aria-labelledby="academic-tab">Academic Qualification
+                                <div class="form-group">
+                                    <h3> SSLC/ಎಸ್ಎಸ್ಎಲ್ಸಿ</h3>
                                 </div>
-                                <button type="button" id="changetabbutton1" class="btn btn-primary ">Set next tab</button>
-            
-                             </div>
+                                <div class="form-group">
+                                    <label>Name of Institution/ Board/ University</label>
+                                     <input type="text" id="sslc_institution" name="sslc_institution" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Passing Year, Month</label>
+                                    <input type="month"  name="sslc_pass" id="sslc_pass" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Total Marks</label>
+                                    <input type="number" id="sslc_marks" name="sslc_marks" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>% of Marks</label>
+                                    <input type="number" id="sslc_percentage" name="sslc_percentage" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>MarksCard/Certificate</label>
+                                    <input type="file" id="sslc_certificate" name="sslc_certificate" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div>
+                                <div class="form-group">
+                                    <h3> PUC or Diploma/ಪಿಯು ಅಥವಾ ಡಿಪ್ಲೊಮಾ</h3>
+                                </div>
+                                <div class="form-group">
+                                    <label>Name of Institution/ Board/ University</label>
+                                     <input type="text" id="puc_institution" name="puc_institution" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Passing Year, Month</label>
+                                    <input type="month"  name="puc_pass" id="puc_pass" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Total Marks</label>
+                                    <input type="number" id="puc_marks" name="puc_marks" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>% of Marks</label>
+                                    <input type="number" id="puc_percentage" name="puc_percentage" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>MarksCard/Certificate</label>
+                                    <input type="file" id="puc_certificate" name="puc_certificate" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div><div class="form-group">
+                                    <h3> Under Graduation/ಪದವಿ</h3>
+                                </div>
+                                <div class="form-group">
+                                    <label>Name of Institution/ Board/ University</label>
+                                     <input type="text" id="ug_institution" name="ug_institution" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Passing Year, Month</label>
+                                    <input type="month"  name="ug_pass" id="ug_pass" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Total Marks</label>
+                                    <input type="number" id="ug_marks" name="ug_marks" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>% of Marks</label>
+                                    <input type="number" id="ug_percentage" name="ug_percentage" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>MarksCard/Certificate</label>
+                                    <input type="file" id="ug_certificate" name="ug_certificate" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div><div class="form-group">
+                                    <h3> Post Graduation/ಸ್ನಾತಕೋತ್ತರ ಪದವಿ</h3>
+                                </div>
+                                <div class="form-group">
+                                    <label>Name of Institution/ Board/ University</label>
+                                     <input type="text" id="pg_institution" name="pg_institution" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Passing Year, Month</label>
+                                    <input type="month"  name="pg_pass" id="pg_pass" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Total Marks</label>
+                                    <input type="number" id="pg_marks" name="pg_marks" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>% of Marks</label>
+                                    <input type="number" id="pg_percentage" name="pg_percentage" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label>MarksCard/Certificate</label>
+                                    <input type="file" id="pg_certificate" name="pg_certificate" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div>
+                                <button type="button" id="changetabbutton5" class="btn btn-success ">Prev</button>
+                                <button type="button" id="changetabbutton2" class="btn btn-primary ">continue</button>
+                            </div>
+                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">Professional Details
+
+                                <div class="form-group">
+                                    <label>Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ</label>
+                                    <input type="text" id="deputy_scoiety" name="deputy_society" class="form-control" placeholder="Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Designation/ಹುದ್ದೆ</label>
+                                    <input type="text" id="designation" name="designation" class="form-control" placeholder="Designation/ಹುದ್ದೆ" required>
+                                </div>    
+                                <div class="form-group">
+                                    <label> Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕದೆ</label>
+                                    <input type="date" id="doa" name="doa" class="form-control" placeholder="Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕ" required>   
+                                </div>
+                                <div class="form-group">
+                                    <label>Period Of Service/ಸೇವೆಯ ಅವಧಿ</label>
+                                    <input type="number" id="period_of_service" name="period_of_service" class="form-control" placeholder="Period Of Service/ಸೇವೆಯ ಅವಧಿ" required>
+                                </div>  
+                                <div class="form-group">
+                                    <label>Office Address/ವಿಳಾಸ</label>
+                                    <textarea id="office_address" name="office_address" rows="3" placeholder="Office Address/ವಿಳಾಸ" class="form-control" required></textarea>
+                                    
+                                </div>    
+                                <div class="form-group">
+                                    <label>Phone number/ದೂರವಾಣಿ ಸಂಖ್</label>
+                                    <input type="number" id="phone_number_office" name="phone_number_office" class="form-control" placeholder="Phone number/ದೂರವಾಣಿ ಸಂಖ್" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Pincode/ಪಿನ್ಕೋಡ್</label>
+                                    <input type="number" id="pincode_office" name="pincode_office" class="form-control" placeholder="Pincode/ಪಿನ್ಕೋಡ್" required>
+                                </div>
+                                <button type="button" id="changetabbutton3" class="btn btn-primary ">Continue</button>
+                            </div>
+                            <div class="tab-pane fade " id="upload" role="tabpanel" aria-labelledby="upload-tab">Upload Section
+                                <div class="form-group"> 
+                                    <label>Photo</label>
+                                    <input type="file" name="photo" id="photo" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div>
+                                <div class="form-group"> 
+                                    <label>Address Proof</label>
+                                    <input type="file" name="address_proof" id="address_proof" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div>
+                                <div class="form-group"> 
+                                    <label>Empolyee Certificare</label>
+                                    <input type="file" name="e_certificate" id="e_certificate" class="form-control" onchange="ValidateSize(this)">
+                                    <span></span>
+                                </div>
+
+
+                                <button type="button" id="changetabbutton4" class="btn btn-primary ">Continue</button>
+                            </div>
+                            <div class="tab-pane fade " id="declaration" role="tabpanel" aria-labelledby="declaration-tab">Declaration
+                               <div class="form-group"> <input type="checkbox" class="form-check-input" id="declare">
+    <label for="declare">I here by declare that all the above documents and information provided are true</label></div>
+                                <button type="button" id="changetabbutton5" class="btn btn-primary ">Submit</button>
+                            </div>
+                            
                         </div>
-                        <div class="tab-pane fade " id="academic" role="tabpanel" aria-labelledby="academic-tab">Academic Qualification
-                            <button type="button" id="changetabbutton2" class="btn btn-primary ">Set next tab</button>
-                        </div>
-                        <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">Professional Details
-                            <button type="button" id="changetabbutton3" class="btn btn-primary ">Set next tab</button>
-                        </div>
-                        <div class="tab-pane fade " id="upload" role="tabpanel" aria-labelledby="upload-tab">Upload Section
-                            <button type="button" id="changetabbutton4" class="btn btn-primary ">Set next tab</button>
-                        </div>
-                        <div class="tab-pane fade " id="declaration" role="tabpanel" aria-labelledby="declaration-tab">Declaration
-                            <button type="button" id="changetabbutton5" class="btn btn-primary ">Set next tab</button>
-                        </div>
-                        
                     </div>
                 </div>
+            </div>
+            
+                
+
+
+        
+            <div class="col-md-2 custRightDivMD">
+                <fieldset class="border" >
+                  <legend class ='text-left'>Events</legend>
+                  Right
+                </fieldset>
             </div>
         </div>
+
+        <hr class="mt-2 mb-3"/>
+        <div class="row">
+            <div class="col-md-12 footerDiv">footer</div>
+        </div>
+    </div>
+
+    </div>
         
-           <!-- <form method="POST" class="appointment-form" id="appointment-form"></form>
-                <h2>Personal Details</h2>
 
-                <div class="form-row">
-                    <div class="name">Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</div>
-                    <div class="value">
-                        <input type="number" id="mobile_number" name="mobile_number" class="input--style-6" placeholder="Mobile Number/ಮೊಬೈಲ್ ನಂಬರ" required> </div>
-                </div>
-                <!--template
-                <div class="form-group">
-                    <label for="exampleInputEmail1">ChangeName</label>
-                    <input class="form-control">
-                </div> 
-                
-                <div id="personDetailId">
-                    <div class="form-group">
-                        <label >Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</label>
-                        <input type="number" id="mobile_number" name="mobile_number" class="form-control" required>
-                        <small class="form-text text-muted">Register per mobile number</small>
-                    </div>
+    </body>
 
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Preference of center</label>
-                        <input class="form-control" type="text" name="poc" id="poc" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Sponsoring Co-operative Society</label>
-                        <input class="form-control" type="text" name="sponsor" id="sponsor" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು</label>
-                        <input type="text" name="title" id="title" class="form-control" placeholder="Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು" required />
-                        
-                    </div>
-
-                 </div>
-
-            <div id="academicDetailId">
-                <h2>Academic Qualification</h2>
-
-
-            </div>
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-              </div>
-              
-
-
-  <!--          <div class="form-group-1">
-            	<h2>Personal Details</h2>
-                <div class="form-row">
-                    <div class="name"></div>
-                    <div class="value">
-                        
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="name"> Father's Name/ ತಂದೆಯ ಹೆಸರು</div>
-                    <div class="value">
-                        <input type="text" name="father_name" id="father_name" class="input--style-6" placeholde="Father's Name/ತಂದೆಯ ಹೆಸರು" required />
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="name"> Mother's Name/ ತಾಯಿಯ ಹೆಸರು</div>
-                    <div class="value">
-                        <input type="text" name="mother_name" id="mother_name" class="input--style-6" placeholde="Mother's Name/ತಾಯಿಯ ಹೆಸರು" required />
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Sex</div>
-                    <div class="value">
-
-                        <select name="sex" id="sex" required>
-                            <option slected value="">sex</option>
-                            <option value="M">Male</option>
-                            <option value="F">Female</option>
-                            <option value="T">Transgender</option>
-                        </select>
-
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">D.O.B/ಹುಟ್ತಿದ ದಿನ</div>
-                    <div class="value">
-                        <input type="date" id="dob" name="dob" required> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Age/ವಯಸ್ಸು</div>
-                    <div class="value">
-                        <input type="number" id="age" name="age" class="input--style-6" placeholder="Age/ವಯಸ್" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Religion/ಧರ್ಮ</div>
-                    <div class="value">
-                        <input type="text" id="religion" name="religion" class="input--style-6" placeholder="Religion/
-ಧರ್ಮ" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Caste/ಜಾತಿ</div>
-                    <div class="value">
-                        <select name="caste" id="caste" required>
-                            <option slected value="">Cast/ಜಾತಿ</option>
-                            <option value="GM">GM</option>
-                            <option value="SC">SC</option>
-                            <option value="ST">ST</option>
-                            <option value="O">Others</option>
-                        </select> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Nationality/ರಾಷ್ಟ್ರೀಯತೆ</div>
-                    <div class="value">
-                        <input type="text" id="nationality" name="nationality" class="input--style-6" placeholder="Nationality/ರಾಷ್ಟ್ರೀಯತೆ" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Address/ವಿಳಾಸ</div>
-                    <div class="value">
-                        <textarea id="address" name="address" rows="5" placeholder="address/ವಿಳಾಸ" required> </textarea></div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Pincode/ಅಂಚೆ</div>
-                    <div class="value">
-                        <input type="number" id="pincode" name="pincode" class="input--style-6" placeholder="pincode/ಅಂಚೆ" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</div>
-                    <div class="value">
-                        <input type="number" id="mobile_number" name="mobile_number" class="input--style-6" placeholder="Mobile Number/ಮೊಬೈಲ್ ನಂಬರ" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">E-Mail Address/ಇಮೇಲ್ ವಿಳಾಸ</div>
-                    <div class="value">
-                        <input type="email" id="email" name="email" class="input--style-6" placeholder="E-Mail/ಇಮೇಲ್ ವಿಳಾಸ" required> </div>
-                </div>
-
-
-
-
-
-
-                <h2>Professional Details/ವೃತ್ತಿಪರ ವಿವರಗಳು</h2>
-                <div class="form-row">
-                    <div class="name">Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ</div>
-                    <div class="value">
-                        <input type="text" id="deputy_scoiety" name="deputy_society" class="input--style-6" placeholder="Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ" required> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ</div>
-                    <div class="value">
-                        <input type="text" id="deputy_scoiety" name="deputy_society" class="input--style-6" placeholder="Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ" required> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Designation/ಹುದ್ದೆ</div>
-                    <div class="value">
-                        <input type="text" id="designation" name="designation" class="input--style-6" placeholder="Designation/ಹುದ್ದೆ" required> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕದೆ</div>
-                    <div class="value">
-                        <input type="date" id="doa" name="doa" class="input--style-6" placeholder="Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕ" required> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Period Of Service/ಸೇವೆಯ ಅವಧಿ</div>
-                    <div class="value">
-                        <input type="number" id="period_of_service" name="period_of_service" class="input--style-6" placeholder="Period Of Service/ಸೇವೆಯ ಅವಧಿ" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Office Address/ವಿಳಾಸ</div>
-                    <div class="value">
-                        <textarea id="office_address" name="office_address" rows="5" placeholder="Office Address/ವಿಳಾಸ" required> </textarea> </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Phone number/ದೂರವಾಣಿ ಸಂಖ್</div>
-                    <div class="value">
-                        <input type="number" id="phone_number_office" name="phone_number_office" class="input--style-6" placeholder="Phone number/ದೂರವಾಣಿ ಸಂಖ್" required> </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">Pincode/ಪಿನ್ಕೋಡ್</div>
-                    <div class="value">
-                        <input type="number" id="pincode_office" name="pincode_office" class="input--style-6" placeholder="Pincode/ಪಿನ್ಕೋಡ್" required> </div>
-                </div>
-
-                <h2>Academic Qualifications/ಶೈಕ್ಷಣಿಕ ಅರ್ಹತೆಗಳು</h2>
-
-
-
-
-                <div class="form-row">
-                    <div class="name">
-                        SSLC/ಎಸ್ಎಸ್ಎಲ್ಸಿ
-                    </div>
-                    <div class="value">
-
-
-                    </div>
-                    <div class="name">Name of Institution/ Board/ University</div>
-                    <div class="value">
-
-                        <input type="text" id="sslc_institution" name="sslc_institution" class="input--style-6" required>
-                    </div>
-                    <div class="name">Passing Year, Month</div>
-                    <div class="value">
-
-                        <input type="month"  name="sslc_pass" id="sslc_pass" class="input--style-6" required>
-                    </div>
-                    <div class="name">Total Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="sslc_marks" name="sslc_marks" class="input--style-6">
-                    </div>
-
-                    <div class="name">% of Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="sslc_percentage" name="sslc_percentage" class="input--style-6">
-                    </div>
-                    <div class="name">MarksCard/Certificate</div>
-                    <div class="value">
-
-                        <input type="file" id="sslc_certificate" name="sslc_certificate" class="input--style-6">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="name">PUC or Diploma/ಪಿಯು ಅಥವಾ ಡಿಪ್ಲೊಮಾ</div>
-                    <div class="value">
-
-
-                    </div>
-                    <div class="name">Name of Institution/ Board/ University</div>
-                    <div class="value">
-
-                        <input type="text" id="puc_institution" name="puc_institution" class="input--style-6" required>
-                    </div>
-                    <div class="name">Passing Year, Month</div>
-                    <div class="value">
-
-                        <input type="text" id="puc_passing" name="puc_passing" class="input--style-6" required>
-                    </div>
-                    <div class="name">Total Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="puc_marks" name="puc_marks" class="input--style-6">
-                    </div>
-
-                    <div class="name">% of Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="puc_percentage" name="puc_percentage" class="input--style-6">
-                    </div>
-                    <div class="name">MarksCard/Certificate</div>
-                    <div class="value">
-
-                        <input type="file" id="puc_certificate" name="puc_certificate" class="input--style-6">
-                    </div>
-
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Under Graduation/ಪದವಿ</div>
-                    <div class="value">
-
-
-                    </div>
-                    <div class="name">Name of Institution/ Board/ University</div>
-                    <div class="value">
-
-                        <input type="text" id="ug_institution" name="ug_institution" class="input--style-6" required>
-                    </div>
-                    <div class="name">Passing Year, Month</div>
-                    <div class="value">
-
-                        <input type="text" id="ug_passing" name="ug_passing" class="input--style-6" required>
-                    </div>
-                    <div class="name">Total Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="ug_marks" name="ug_marks" class="input--style-6">
-                    </div>
-
-                    <div class="name">% of Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="ug_percentage" name="ug_percentage" class="input--style-6">
-                    </div>
-                    <div class="name">MarksCard/Certificate</div>
-                    <div class="value">
-
-                        <input type="file" id="ug_certificate" name="ug_certificate" class="input--style-6">
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="name">Post Graduation/ಸ್ನಾತಕೋತ್ತರ ಪದವಿ</div>
-                    <div class="value">
-
-
-                    </div>
-                    <div class="name">Name of Institution/ Board/ University</div>
-                    <div class="value">
-
-                        <input type="text" id="pg_institution" name="pg_institution" class="input--style-6" required>
-                    </div>
-                    <div class="name">Passing Year, Month</div>
-                    <div class="value">
-
-                        <input type="text" id="pg_passing" name="pg_passing" class="input--style-6" required>
-                    </div>
-                    <div class="name">Total Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="pg_marks" name="pg_marks" class="input--style-6">
-                    </div>
-
-                    <div class="name">% of Marks</div>
-                    <div class="value">
-
-                        <input type="text" id="pg_percentage" name="pg_percentage" class="input--style-6">
-                    </div>
-                    <div class="name">MarksCard/Certificate</div>
-                    <div class="value">
-
-                        <input type="file" id="pg_certificate" name="pg_certificate" class="input--style-6">
-                    </div>
-                </div>
-
-                <div class="form-submit">
-                    <input type="submit" name="submit" id="submit" class="submit" value="Submit Application" />
-                </div>-->
-            
-
-        </form>
-    
-        <div class="col-md-2 custRightDivMD">right</div>
-    </div>
-
-    <div class="row">
-        footer
-    </div>
-    </div>
-
-</div>
-
-    
-
-</body>
-
-</html>
+    </html>
