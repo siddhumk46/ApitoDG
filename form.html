@@ -1,14 +1,14 @@
     <!doctype html>
     <html lang="en">
       <head>
-        <!-- Required meta tags -->
+        <!--   meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-        <title>Register</title>
+        <title>Hello, world!</title>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -22,14 +22,14 @@
     </head>
 
      <body>
-       <div class="container-fluid">
-           <div class="row">
-               <div class="col-md-12 d-none d-sm-none d-md-block headerDiv">
-                 <img src="img/download.png">
-                 <p class="font-weight-normal" style="font-size:8ch"> Karnataka State co-operative Federation Ltd.,</p>
-                 <p style="font-size: medium; color: rgb(121, 171, 236);"> Diploma in Co-operative Management (Distance Education)</p>
-                </div>
-          </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 d-none d-sm-none d-md-block headerDiv">
+                  <img src="img/download.png">
+                  <p class="font-weight-normal" style="font-size:8ch"> Karnataka State co-operative Federation Ltd.,</p>
+                  <p style="font-size: medium; color: rgb(121, 171, 236);"> Diploma in Co-operative Management (Distance Education)</p>
+                 </div>
+           </div>
 
             <!--Nav bar-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-warning orange">
@@ -54,7 +54,6 @@
                 </div>
             </nav>
 
-
             <div class="row">
                 <div class="col-md-2 custLeftDivMD">
                   <fieldset class="border" >
@@ -67,10 +66,9 @@
                   </fieldset>
                   
             </div>
-
     <!-- Start of center-->
          
-             <div class="col-md-8 custCentDivMD  overflow-auto">
+             <div class="col-md-8 custCentDivMD overflow-auto">
                 <div class="card text-center">
                     <div class="card-header">
                         <ul id="mytabs" class="nav nav-tabs card-header-tabs pull-right"  id="myTab" role="tablist">
@@ -101,15 +99,15 @@
                             <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
                                 <div id="personDetailId">
                                     <div class="form-group">
-                                        <label >Mobile Number/ಮೊಬೈಲ್ ನಂಬರ</label>
-                                        <input type="number" id="mobile_number" name="mobile_number" class="form-control" required>
-                                        <small class="form-text text-muted">Register per mobile number</small>
+                                        <label >Mobile Number/ಮೊಬೈಲ್ ನಂಬರ *</label>
+                                        <input type="number" id="mobile_number" name="mobile_number" class="form-control" placeholder="Mobile Number/ಮೊಬೈಲ್ ನಂಬರ" >
+                                        <small class="form-text text-muted">Register per mobile number </small>
                                         <span id="e_mobile"></span>
                                     </div>
                 
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Preference of center</label>
-                                        <select class="custom-select" id="poc" name="poc" required="">
+                                        <label for="exampleInputEmail1">Preference of center *</label>
+                                        <select class="custom-select" id="poc" name="poc" >
                                             <option selected>Choose...</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
@@ -120,29 +118,29 @@
                                     
                 
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Sponsoring Co-operative Society</label>
-                                        <input class="form-control" type="text" name="sponsor" id="sponsor" required>
+                                        <label for="exampleInputEmail1">Sponsoring Co-operative Society *</label>
+                                        <input class="form-control" type="text" name="sponsor" id="sponsor" placeholder="Sponsoring Co-operative Society " >
                                         <span id="e_sponsor"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು</label>
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು" required />
+                                        <label for="exampleInputEmail1">Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು *</label>
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name of the candidate/ಅರ್ಜಿದಾರರ ಹೆಸರು"   />
                                         <span id="e_name"></span>                                 
                                     </div>
                                     <div class="form-group">
-                                        <label> Father's Name/ ತಂದೆಯ ಹೆಸರು</label>
-                                        <input type="text" name="father_name" id="father_name" class="form-control" placeholder="Father's Name/ತಂದೆಯ ಹೆಸರು" required />
+                                        <label> Father's Name/ ತಂದೆಯ ಹೆಸರು *</label>
+                                        <input type="text" name="father_name" id="father_name" class="form-control" placeholder="Father's Name/ತಂದೆಯ ಹೆಸರು"   />
                                         <span id="e_father"></span>
                                     </div>
                                     <div class="form-group">
                                         <label>Mother's Name/ ತಾಯಿಯ ಹೆಸರು</label>
-                                        <input type="text" name="mother_name" id="mother_name" class="form-control" placeholder="Mother's Name/ತಾಯಿಯ ಹೆಸರು" required />
+                                        <input type="text" name="mother_name" id="mother_name" class="form-control" placeholder="Mother's Name/ತಾಯಿಯ ಹೆಸರು"   />
                                         <span id="e_mother"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>Sex</label>
-                                         <select name="sex" id="sex" required class="custom-select">
-                                            <option slected value="">sex</option>
+                                        <label>Gender *</label>
+                                         <select name="sex" id="sex"   class="custom-select">
+                                            <option slected value="">Gender</option>
                                             <option value="M">Male</option>
                                             <option value="F">Female</option>
                                             <option value="T">Transgender</option>
@@ -150,49 +148,50 @@
                                         <span id="e_sex"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>D.O.B/ಹುಟ್ತಿದ ದಿನ</label>
-                                        <input type="date" id="dob" name="dob" class="form-control" required>
+                                        <label>D.O.B/ಹುಟ್ತಿದ ದಿನ *</label>
+                                        <input type="date" id="dob" name="dob" class="form-control" onchange="age()" >
                                         <span id="e_dob"></span> 
                                     </div>
                                     <div class="form-group">
-                                        <label>Age/ವಯಸ್ಸು</label>
-                                        <input type="number" id="age" name="age" class="form-control" placeholder="Age/ವಯಸ್" required>
+                                        <label>Age/ವಯಸ್ಸು *</label>
+                                        <input type="number" id="age" name="age" class="form-control" placeholder="Age/ವಯಸ್" readonly >
                                         <span id="e_age"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>Religion/ಧರ್ಮ</label>
-                                        <input type="text" id="religion" name="religion" class="form-control" placeholder="Religion/ಧರ್ಮ" required>
+                                        <label>Religion/ಧರ್ಮ *</label>
+                                        <input type="text" id="religion" name="religion" class="form-control" placeholder="Religion/ಧರ್ಮ"  >
                                         <span id="e_religion"></span>
                                      </div>
                                     <div class="form-group">
-                                        <label>Caste/ಜಾತಿ</label>
-                                        <select name="caste" id="caste" class="form-control" required>
+                                        <label>Caste/ಜಾತಿ *</label>
+                                        <select name="caste" id="caste" class="form-control"  onchange="changestatus()" >
                                             <option slected value="">Cast/ಜಾತಿ</option>
                                             <option value="GM">GM</option>
                                             <option value="SC">SC</option>
-                                            <option value="ST">ST</option>
+                                            <option value="ST">ST</option>  
                                             <option value="O">Others</option>
                                         </select>
+                                        <input type="text" id="other" name="other"  class="form-control" required placeholder="Enter Other caste" >
                                         <span id="e_caste"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>Nationality/ರಾಷ್ಟ್ರೀಯತೆ</label>
-                                        <input type="text" id="nationality" name="nationality" class="form-control" placeholder="Nationality/ರಾಷ್ಟ್ರೀಯತೆ" required>
+                                        <label>Nationality/ರಾಷ್ಟ್ರೀಯತೆ *</label>
+                                        <input type="text" id="nationality" name="nationality" class="form-control" placeholder="Nationality/ರಾಷ್ಟ್ರೀಯತೆ"  >
                                         <span id="e_nationality"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>Address/ವಿಳಾಸ</label>
-                                        <textarea id="address" name="address" rows="3" placeholder="address/ವಿಳಾಸ" class="form-control" required> </textarea>
+                                        <label>Address/ವಿಳಾಸ *</label>
+                                        <textarea id="address" name="address" rows="3" class="form-control" placeholder="address/ವಿಳಾಸ"  > </textarea>
                                         <span id="e_address"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>Pincode/ಅಂಚೆ</label>
-                                        <input type="number" id="pincode" name="pincode" class="form-control" placeholder="pincode/ಅಂಚೆ" required>
+                                        <label>Pincode/ಅಂಚೆ *</label>
+                                        <input type="number" id="pincode" name="pincode" class="form-control" placeholder="pincode/ಅಂಚೆ"  >
                                         <span id="e_pincode"></span>
                                     </div>
                                     <div class="form-group">
-                                        <label>E-Mail Address/ಇಮೇಲ್ ವಿಳಾಸ</label>
-                                        <input type="email" id="email" name="email" class="form-control" placeholder="E-Mail/ಇಮೇಲ್ ವಿಳಾಸ" required>
+                                        <label>E-Mail Address/ಇಮೇಲ್ ವಿಳಾಸ *</label>
+                                        <input type="email" id="email" name="email" class="form-control" placeholder="E-Mail/ಇಮೇಲ್ ವಿಳಾಸ"  >
                                         <span id="e_email"></span>
                                      </div>
  
@@ -201,41 +200,45 @@
                 
                                  </div>
                             </div>
-                            <div class="tab-pane fade " id="academic" role="tabpanel" aria-labelledby="academic-tab">Academic Qualification
+                            <div class="tab-pane fade " id="academic" role="tabpanel" aria-labelledby="academic-tab">
                                 <div class="form-group">
                                     <h3> SSLC/ಎಸ್ಎಸ್ಎಲ್ಸಿ</h3>
                                 </div>
                                 <div class="form-group">
-                                    <label>Name of Institution/ Board/ University</label>
-                                     <input type="text" id="sslc_institution" name="sslc_institution" class="form-control" required>
+                                    <label>Name of Institution/ Board/ University *</label>
+                                     <input type="text" id="sslc_institution" name="sslc_institution" class="form-control" >
+                                     <span id="e_sslc_institution"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label>Passing Year, Month</label>
-                                    <input type="month"  name="sslc_pass" id="sslc_pass" class="form-control" required>
+                                    <label>Passing Year, Month *</label>
+                                    <input type="month"  name="sslc_pass" id="sslc_pass" class="form-control"  >
+                                    <span id="e_sslc_pass"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label>Total Marks</label>
+                                    <label>Total Marks *</label>
                                     <input type="number" id="sslc_marks" name="sslc_marks" class="form-control">
+                                    <span id="e_sslc_marks"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label>% of Marks</label>
+                                    <label>Percentage(%) of Marks *</label>
                                     <input type="number" id="sslc_percentage" name="sslc_percentage" class="form-control">
+                                    <span id="e_sslc_percentage"></span>
                                 </div>
                                 <div class="form-group">
-                                    <label>MarksCard/Certificate</label>
+                                    <label>MarksCard/Certificate *</label>
                                     <input type="file" id="sslc_certificate" name="sslc_certificate" class="form-control" onchange="ValidateSize(this)">
-                                    <span></span>
+                                    <span id="e_sslc_certificate"></span>
                                 </div>
                                 <div class="form-group">
                                     <h3> PUC or Diploma/ಪಿಯು ಅಥವಾ ಡಿಪ್ಲೊಮಾ</h3>
                                 </div>
                                 <div class="form-group">
                                     <label>Name of Institution/ Board/ University</label>
-                                     <input type="text" id="puc_institution" name="puc_institution" class="form-control" required>
+                                     <input type="text" id="puc_institution" name="puc_institution" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Passing Year, Month</label>
-                                    <input type="month"  name="puc_pass" id="puc_pass" class="form-control" required>
+                                    <input type="month"  name="puc_pass" id="puc_pass" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Total Marks</label>
@@ -248,17 +251,17 @@
                                 <div class="form-group">
                                     <label>MarksCard/Certificate</label>
                                     <input type="file" id="puc_certificate" name="puc_certificate" class="form-control" onchange="ValidateSize(this)">
-                                    <span></span>
+                                    <span id="e_puc_certificate"></span>
                                 </div><div class="form-group">
                                     <h3> Under Graduation/ಪದವಿ</h3>
                                 </div>
                                 <div class="form-group">
                                     <label>Name of Institution/ Board/ University</label>
-                                     <input type="text" id="ug_institution" name="ug_institution" class="form-control" required>
+                                     <input type="text" id="ug_institution" name="ug_institution" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Passing Year, Month</label>
-                                    <input type="month"  name="ug_pass" id="ug_pass" class="form-control" required>
+                                    <input type="month"  name="ug_pass" id="ug_pass" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Total Marks</label>
@@ -271,17 +274,17 @@
                                 <div class="form-group">
                                     <label>MarksCard/Certificate</label>
                                     <input type="file" id="ug_certificate" name="ug_certificate" class="form-control" onchange="ValidateSize(this)">
-                                    <span></span>
+                                    <span id="e_ug_certificate"></span>
                                 </div><div class="form-group">
                                     <h3> Post Graduation/ಸ್ನಾತಕೋತ್ತರ ಪದವಿ</h3>
                                 </div>
                                 <div class="form-group">
                                     <label>Name of Institution/ Board/ University</label>
-                                     <input type="text" id="pg_institution" name="pg_institution" class="form-control" required>
+                                     <input type="text" id="pg_institution" name="pg_institution" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Passing Year, Month</label>
-                                    <input type="month"  name="pg_pass" id="pg_pass" class="form-control" required>
+                                    <input type="month"  name="pg_pass" id="pg_pass" class="form-control"  >
                                 </div>
                                 <div class="form-group">
                                     <label>Total Marks</label>
@@ -294,42 +297,50 @@
                                 <div class="form-group">
                                     <label>MarksCard/Certificate</label>
                                     <input type="file" id="pg_certificate" name="pg_certificate" class="form-control" onchange="ValidateSize(this)">
-                                    <span></span>
+                                    <span id="e_pg_certificate"></span>
                                 </div>
-                                <button type="button" id="changetabbutton5" class="btn btn-success ">Prev</button>
+                                <button type="button" id="changetabbutton6" class="btn btn-success ">Prev</button>
                                 <button type="button" id="changetabbutton2" class="btn btn-primary ">continue</button>
                             </div>
-                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">Professional Details
+                            <div class="tab-pane fade " id="professional" role="tabpanel" aria-labelledby="professional-tab">
 
                                 <div class="form-group">
                                     <label>Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ</label>
-                                    <input type="text" id="deputy_scoiety" name="deputy_society" class="form-control" placeholder="Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ" required>
+                                    <input type="text" id="deputy_scoiety" name="deputy_society" class="form-control" placeholder="Name of Deputy Society/ಡೆಪ್ಯೂಟಿ ಸೊಸೈಟಿಯ ಹೆಸರ"  >
+                                    <span id="e_deputy_scoiety"></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Designation/ಹುದ್ದೆ</label>
-                                    <input type="text" id="designation" name="designation" class="form-control" placeholder="Designation/ಹುದ್ದೆ" required>
+                                    <input type="text" id="designation" name="designation" class="form-control" placeholder="Designation/ಹುದ್ದೆ"  >
+                                    <span id="e_designation"></span>
                                 </div>    
                                 <div class="form-group">
                                     <label> Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕದೆ</label>
-                                    <input type="date" id="doa" name="doa" class="form-control" placeholder="Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕ" required>   
+                                    <input type="date" id="doa" name="doa" class="form-control" placeholder="Date of Appointment/ನೇಮಕಾತಿ ದಿನಾಂಕ"  >   
+                                    <span id="e_doa"></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Period Of Service/ಸೇವೆಯ ಅವಧಿ</label>
-                                    <input type="number" id="period_of_service" name="period_of_service" class="form-control" placeholder="Period Of Service/ಸೇವೆಯ ಅವಧಿ" required>
+                                    <input type="number" id="period_of_service" name="period_of_service" class="form-control" placeholder="Period Of Service/ಸೇವೆಯ ಅವಧಿ"  >
+                                    <span id="e_period_of_service"></span>
                                 </div>  
                                 <div class="form-group">
                                     <label>Office Address/ವಿಳಾಸ</label>
-                                    <textarea id="office_address" name="office_address" rows="3" placeholder="Office Address/ವಿಳಾಸ" class="form-control" required></textarea>
+                                    <textarea id="office_address" name="office_address" rows="3" placeholder="Office Address/ವಿಳಾಸ" class="form-control"  ></textarea>
+                                    <span id="e_office_address"></span>
                                     
                                 </div>    
                                 <div class="form-group">
                                     <label>Phone number/ದೂರವಾಣಿ ಸಂಖ್</label>
-                                    <input type="number" id="phone_number_office" name="phone_number_office" class="form-control" placeholder="Phone number/ದೂರವಾಣಿ ಸಂಖ್" required>
+                                    <input type="number" id="phone_number_office" name="phone_number_office" class="form-control" placeholder="Phone number/ದೂರವಾಣಿ ಸಂಖ್"  >
+                                    <span id="e_phone_number_office"></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Pincode/ಪಿನ್ಕೋಡ್</label>
-                                    <input type="number" id="pincode_office" name="pincode_office" class="form-control" placeholder="Pincode/ಪಿನ್ಕೋಡ್" required>
+                                    <input type="number" id="pincode_office" name="pincode_office" class="form-control" placeholder="Pincode/ಪಿನ್ಕೋಡ್"  >
+                                    <span id="e_pincode_office"></span>
                                 </div>
+                                <button type="button" id="changetabbutton7" class="btn btn-success ">Prev</button>
                                 <button type="button" id="changetabbutton3" class="btn btn-primary ">Continue</button>
                             </div>
                             <div class="tab-pane fade " id="upload" role="tabpanel" aria-labelledby="upload-tab">Upload Section
@@ -349,12 +360,13 @@
                                     <span></span>
                                 </div>
 
-
+                                <button type="button" id="changetabbutton8" class="btn btn-success ">Prev</button>
                                 <button type="button" id="changetabbutton4" class="btn btn-primary ">Continue</button>
                             </div>
                             <div class="tab-pane fade " id="declaration" role="tabpanel" aria-labelledby="declaration-tab">Declaration
                                <div class="form-group"> <input type="checkbox" class="form-check-input" id="declare">
-    <label for="declare">I here by declare that all the above documents and information provided are true</label></div>
+                                <label for="declare">I here by declare that all the above documents and information provided are true</label></div>
+                                <button type="button" id="changetabbutton9" class="btn btn-success ">Prev</button>
                                 <button type="button" id="changetabbutton5" class="btn btn-primary ">Submit</button>
                             </div>
                             
@@ -378,10 +390,11 @@
         <hr class="mt-2 mb-3"/>
         <div class="row">
             <div class="col-md-12 footerDiv">footer</div>
-        </div>
+        </div>        
     </div>
 
     </div>
+
         
 
     </body>
